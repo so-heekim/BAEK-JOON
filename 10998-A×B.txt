@@ -1,0 +1,18 @@
+1. C
+
+#include <stdio.h>
+int main() {
+    int a,b;
+    scanf("%d %d",&a,&b);
+    printf("%d",a*b);
+    return 0;
+}
+
+
+
+
+2. Python
+
+a=input()
+b=a.split(" ")
+print(int(b[0])*int(b[1]))

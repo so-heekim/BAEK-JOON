@@ -1,0 +1,17 @@
+1. C
+
+#include <stdio.h>
+int main() {
+    double a,b;
+    scanf("%lf %lf",&a,&b);
+    printf("%.9f",a/b);
+}
+
+
+
+
+2. Python
+
+a=input()
+b=a.split(" ")
+print(int(b[0])/int(b[1]))

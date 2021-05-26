@@ -1,0 +1,12 @@
+1. C
+
+#include <stdio.h>
+int main() {printf("강한친구 대한육군\n");printf("강한친구 대한육군");}                                                             
+
+
+
+
+2. Python
+
+print("""강한친구 대한육군
+강한친구 대한육군""")
