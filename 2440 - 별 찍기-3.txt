@@ -1,0 +1,27 @@
+1. C
+
+#include <stdio.h>
+int main() {
+    int a;
+    scanf("%d", &a);
+    
+    for(int i=0;i<a;i++){
+        for(int j=i;0<a-j;j++){
+            printf("*");
+        }
+        printf("\n");
+    }
+}
+
+
+
+
+2. Python
+
+s=int(input())
+i=0
+k=s
+
+for i in range(s,0,-1):
+    print("*"*k)
+    k-=1
