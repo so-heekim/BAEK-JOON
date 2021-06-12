@@ -1,0 +1,16 @@
+1. C
+
+
+
+
+
+
+2. Python
+
+s=int(input())
+i,j=0,1
+
+for i in range(s,0,-1):
+    s-=1
+    print(' '*s+'*'*j)
+    j+=2
