@@ -1,0 +1,24 @@
+1. C
+
+#include <stdio.h>
+
+int main() {
+    int a,sum=0;
+    scanf("%d", &a);
+    
+    for(;a>0;a--)
+        sum+=a;
+    printf("%d", sum);
+}
+
+
+
+
+2. Python
+
+s=int(input())
+summ=0
+
+for s in range(s,0,-1):
+     summ+=s
+print(summ)
