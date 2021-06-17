@@ -1,0 +1,38 @@
+1. C
+
+#include <stdio.h>
+
+int main() {
+    int a,b,s=0,ss=0;
+    scanf("%d", &a);
+    
+    for(int i=0;i<a;i++){
+        scanf("%d", &b);
+        if(b==1)
+            s+=1;
+        else
+            ss+=1;
+    }
+    if(s<ss)
+        printf("Junhee is not cute!");
+    else
+        printf("Junhee is cute!");
+}
+
+
+
+2. Python
+
+q=input()
+s,ss=0,0
+
+for i in range(0,int(q)):
+     a=int(input())
+     if a==1:
+          s+=1
+     else:
+          ss+=1
+if s<ss:
+     print("Junhee is not cute!")
+else:
+     print("Junhee is cute!")
