@@ -1,0 +1,30 @@
+1. C
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int main() {
+    char a[10],b[10],c[10],d[10];
+    long long i,j;
+    scanf("%s %s %s %s", a,b,c,d);
+    
+    strcat(a,b);
+    strcat(c,d);
+    i=atoll(a);
+    j=atoll(c);
+    
+    printf("%lld",i+j);
+}
+
+
+
+
+2. Python
+
+s=input()
+p=s.split()
+
+a1=p[0]+p[1]
+a2=p[2]+p[3]
+
+print(int(a1)+int(a2))
