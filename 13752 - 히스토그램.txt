@@ -1,0 +1,29 @@
+1. C
+
+#include <stdio.h>
+
+int main() {
+    int a,b[100];
+    
+    scanf("%d", &a);
+
+    for(int i=0;i<a;i++){
+        scanf("%d", &b[i]);
+        for(int j=0;j<b[i];j++){
+            printf("="); 
+        } 
+        printf("\n");
+    }
+}
+
+
+
+2. Python
+
+m=int(input())
+s=[]
+
+for i in range(0,m):
+    s.append(int(input()))
+for i in s:
+     print('='*i)
