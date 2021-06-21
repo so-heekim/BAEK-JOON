@@ -1,0 +1,29 @@
+1. C
+
+#include <stdio.h>
+
+int main() {
+    int a,s,ss;
+
+    scanf("%d", &a);
+
+    for(int i=0;i<a;i++){
+        scanf("%d %d", &s,&ss);
+        printf("Case #%d: %d\n",i+1,s+ss);
+    }
+}
+
+
+
+2. Python
+
+n=int(input())
+i=0
+c=[]
+
+for i in range(n):
+     s=input()
+     c.append(int(s[0])+int(s[2]))
+     
+for i in range(n):
+     print("Case #%d: %d" %(i+1,c[i]))
