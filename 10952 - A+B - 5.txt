@@ -1,0 +1,25 @@
+1. C
+
+#include <stdio.h>
+
+int main() {
+    int a,b;
+    while(scanf("%d %d", &a,&b)){
+        if(a==0 && b==0)
+            break;
+        else
+            printf("%d\n",a+b);
+    }
+}
+
+
+
+
+2. Python
+
+while True:
+     s=input()
+     if int(s[0])==0 and int(s[2])==0:
+          break
+     else:
+          print(int(s[0])+int(s[2]))
