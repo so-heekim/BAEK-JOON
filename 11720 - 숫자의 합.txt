@@ -1,0 +1,26 @@
+1. C
+
+#include <stdio.h>
+
+int main() {
+    int a,sum=0;
+    char d[100];
+    scanf("%d", &a);
+    scanf("%s", d);
+    
+    for(int i=0;i<a;i++)
+        sum+=d[i]-'0';
+    printf("%d",sum);
+}
+
+
+
+2. Python
+
+s=int(input())
+su=input()
+m=0
+
+for i in range(s):
+     m+=int(su[i])
+print(m)
