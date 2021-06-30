@@ -1,0 +1,16 @@
+1. C
+
+#include <stdio.h>
+
+int main() {
+    char a;
+    scanf("%c", &a);
+    printf("%d",a);
+}
+
+
+
+2. Python
+
+s=input()
+print(ord(s))
